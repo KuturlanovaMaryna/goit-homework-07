@@ -43,7 +43,9 @@
         <address class="adress">
           <ul class="auth-nav list">
             <li>
-              <a href="mailto:info@devstudio.com" class="link contact-adress"
+              <a
+                href="mailto:info@devstudio.com"
+                class="link contact-adress contact-adress-mobile"
                 >info@devstudio.com</a
               >
             </li>
@@ -62,7 +64,7 @@
       </div>
       <div class="mobile-menu js-menu-container">
         <div class="container mobile-menu-container">
-          <button class="mobile-menu-close-btn js-close-menu">
+          <button type="button" class="mobile-menu-close-btn js-close-menu">
             <svg class="mobile-menu-close-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-close"></use>
             </svg>
@@ -250,22 +252,23 @@
               </picture>
             </li>
             <li class="possibilities-item">
-              <source
-                srcset="
-                  ./images/rectangle2.webp    1x,
-                  ./images/rectangle2@2x.webp 2x
-                "
-                media="(min-width: 1158px)"
-                type="image/webp"
-              />
-              <source
-                srcset="
-                  ./images/rectangle2.jpg    1x,
-                  ./images/rectangle2@2x.jpg 2x
-                "
-                media="(min-width: 1158px)"
-              />
               <picture>
+                <source
+                  srcset="
+                    ./images/rectangle2.webp    1x,
+                    ./images/rectangle2@2x.webp 2x
+                  "
+                  media="(min-width: 1158px)"
+                  type="image/webp"
+                />
+                <source
+                  srcset="
+                    ./images/rectangle2.jpg    1x,
+                    ./images/rectangle2@2x.jpg 2x
+                  "
+                  media="(min-width: 1158px)"
+                />
+
                 <img
                   class="possibilities-items-img"
                   src="./images/rectangle2.jpg"
