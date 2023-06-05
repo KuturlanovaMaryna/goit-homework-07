@@ -112,6 +112,7 @@ color:var(--accent-color);
 
 .page-header-container {
     display: flex;
+    align-items: center;
 
 }
 .contact-adress:hover,
@@ -400,7 +401,6 @@ color:var(--accent-color);
 
 .footer-container {
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
@@ -441,7 +441,6 @@ color:var(--accent-color);
 
 
 .styles-item-footer-navigation {
-    margin-left: 80px;
     align-items: baseline;
 }
 
@@ -618,7 +617,7 @@ color:var(--accent-color);
 .mobile-phone-item{
     margin-bottom: 40px;
 }
-.mobile-mail-item{
+.adress-mobile-menu{
     margin-bottom: 48px;
 }
 
@@ -754,8 +753,6 @@ color:var(--accent-color);
 .auth-nav{
     display: flex;
     flex-direction: column;
-    padding-top: 16px;
-    padding-bottom: 16px;
     gap: 4px
 ;
 }
@@ -874,25 +871,25 @@ margin-right: 0;}
 
 /*===========/TEAM/MAIN==========*/
 .customers-container{
-    max-width: 584px;}
+    max-width: 552px;}
 .customer {
     width: calc((100% - 48px) / 3);
 }
 .modal-window {
     width: 408px;
 }
-.styles-item-footer-navigation {
-    margin-left: 0;
-}
+
 .footer-content {
     text-align: start;
 }
 .footer-container{
-    max-width: 548px;}
+    max-width: 552px;}
 
 
 .modal-form-footer{
-    justify-content: space-between;}
+
+column-gap: 24px;
+}
 .modal-form-footer-submit {
     margin-top: 0;
 }
@@ -1050,7 +1047,7 @@ margin-right: 0;}
     padding: 0;
 }
 .footer-container {
-    max-width: 1128px;
+    max-width: 1158px;
     flex-wrap: nowrap;
     gap: 0;
     align-items: baseline;
