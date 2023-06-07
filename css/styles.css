@@ -404,6 +404,7 @@ color:var(--accent-color);
     flex-wrap: wrap;
     row-gap: 72px;
     column-gap: 24px;
+    justify-content: center;
 }
 .footer-social-text {
     font-style: 500;
@@ -441,7 +442,7 @@ color:var(--accent-color);
 
 
 .styles-item-footer-navigation {
-    align-items: baseline;
+    width: 100%;
 }
 
 
